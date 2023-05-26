@@ -1,0 +1,259 @@
+/* Estilo base para la página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .text-container {
+    text-align: center; /* Centrar el texto horizontalmente */
+    max-width: 800px; /* Ancho máximo del contenedor del texto */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    color: #FFFFFF;
+    font-family: 'apple';
+    font-size: 20px;
+    margin-bottom: 5%;
+    
+  }
+  
+  
+  
+  body {
+    background-image: url('img/fondo8.jpg');
+    background-size: cover;
+  }
+  
+  @font-face {
+    font-family: 'apple';
+    src: url('fonts/SFProDisplay-Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'heavitas';
+    src: url('fonts/Heavitas.ttf') format('truetype');
+  }
+  /* Estilos generales */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 5px 10px;
+  }
+  
+  .f1{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block; /* Convertir la imagen en un elemento de bloque para que pueda tener márgenes */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logorvp {
+    margin-bottom: 20px;
+  }
+  
+  .logorvp img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+
+  
+  nav ul li a {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .botones {
+    text-decoration: none;
+    color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.74); 
+  }
+  
+  .botones:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.74); 
+  }
+  
+
+
+  
+.header-text {
+    text-align: right;
+    font-family: 'apple' !important;
+    color: antiquewhite;
+    font-size: 17px; 
+    text-align: center;
+    width: 100%;
+  }
+
+  .apple{
+    font-family: 'apple';
+    color: #FFFFFF;
+  }
+
+  .heavitas{
+    font-family: 'heavitas';
+    color: #FFFFFF;
+  }
+
+  .linkedin{
+    margin-top: 1%;
+    width: 5%;
+  }
+
+  .google{
+    margin-top: -3%;
+    width: 18%;
+  }
+  
+
+  
+  .logo img {
+    width: 120px; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .logo {
+    width: 100%;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos generales del encabezado */
+header {
+    font-family: 'heavitas';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3%;
+    margin-top: 2%;
+  }
+  
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  .image-button {
+    width: 20px; 
+  }
+  
+  
+  /* Estilos para pantallas móviles */
+  @media screen and (max-width: 768px) {
+    header {
+        font-family: 'heavitas';
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3%;
+        margin-top: 5%;
+      }
+    
+    .logo {
+        width: 100%;
+        align-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .logo img {
+        width: 85px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+    
+      nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      nav ul li {
+        display: inline;
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        color: #000000;
+        border-radius: 5px;
+        background-color: #ffffff;
+      }
+
+
+
+      .logorvp {
+        margin-bottom: 20px;
+      }
+      
+      .logorvp img {
+        max-width: 100px;
+        height: auto;
+      }
+      
+      .text-container {
+        text-align: center; /* Centrar el texto horizontalmente */
+        max-width: 800px; /* Ancho máximo del contenedor del texto */
+        margin: 0 auto; /* Centrar el contenedor en la página */
+        color: #FFFFFF;
+        font-family: 'apple';
+        font-size: 20px;
+        margin-bottom: 5%;
+        font-size: 16px;
+        padding: 16px;  
+        
+      }
+
+      .linkedin{
+        margin-top: 1%;
+        width: 15%;
+      }
+    
+      .google{
+        margin-top: -4%;
+        width: 45%;
+        margin-bottom: -6%;
+      }
+  }
+  
